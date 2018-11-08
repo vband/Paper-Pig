@@ -16,7 +16,7 @@ public class GameOverMenuController : MonoBehaviour
     public void PlayAgain()
     {
         FindObjectOfType<BackgroundMusic>().GetComponent<AudioSource>().volume = 1;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Game");
     }
 
     public void GameOver()
@@ -47,7 +47,8 @@ public class GameOverMenuController : MonoBehaviour
     {
         FindObjectOfType<BackgroundMusic>().ChangeSong(Scene.Menu);
         FindObjectOfType<BackgroundMusic>().GetComponent<AudioSource>().volume = 1;
-        SceneManager.LoadScene(0);
+        DontDestroyOnLoader.hasPlayedIntro = false;
+        SceneManager.LoadScene("Menu");
     }
 
     public void Quit()

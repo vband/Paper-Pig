@@ -48,13 +48,13 @@ public class PigPicker : MonoBehaviour {
         porcoAnterior = porcoEscolhido;
         porcoEscolhido = op;
         PlayerPrefs.SetInt("Skin", op);
-        Debug.Log("Porco escolhido: " + porcoEscolhido);
+        //Debug.Log("Porco escolhido: " + porcoEscolhido);
         ChangePig();
     }
 
     private void ChangePig()
     {
-        print("anterior: " + porcoAnterior + ", escolhido: " + PlayerPrefs.GetInt("Skin"));
+        //print("anterior: " + porcoAnterior + ", escolhido: " + PlayerPrefs.GetInt("Skin"));
         skins[porcoAnterior].SetActive(false);
         skins[PlayerPrefs.GetInt("Skin")].SetActive(true);
     }

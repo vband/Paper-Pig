@@ -5,6 +5,7 @@ using UnityEngine;
 public class DontDestroyOnLoader : MonoBehaviour
 {
     public static bool hasGameStarted = false;
+    public static bool hasPlayedIntro = false;
 
     private void Awake()
     {

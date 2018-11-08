@@ -28,8 +28,9 @@ public class MenuController : MonoBehaviour {
 
     public void Play()
     {
-        FindObjectOfType<BackgroundMusic>().ChangeSong(Scene.Game);
-        SceneManager.LoadScene(1);
+        //FindObjectOfType<BackgroundMusic>().ChangeSong(Scene.Game);
+        DontDestroyOnLoader.hasGameStarted = true;
+        SceneManager.LoadScene("Game");
     }
 
     public void Quit()

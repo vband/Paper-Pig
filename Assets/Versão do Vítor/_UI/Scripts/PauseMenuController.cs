@@ -48,7 +48,8 @@ public class PauseMenuController : MonoBehaviour
     {
         FindObjectOfType<BackgroundMusic>().ChangeSong(Scene.Menu);
         FindObjectOfType<BackgroundMusic>().GetComponent<AudioSource>().volume = 1;
-        SceneManager.LoadScene(0);
+        DontDestroyOnLoader.hasPlayedIntro = false;
+        SceneManager.LoadScene("Menu");
     }
 
     public void Quit()

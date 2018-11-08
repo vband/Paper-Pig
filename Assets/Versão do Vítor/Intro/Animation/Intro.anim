@@ -20,27 +20,27 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 73960efe7175fb84db4b42115d5d7cbb, type: 3}
-    - time: 1.5
+    - time: 1.4666667
       value: {fileID: 21300000, guid: 5195ae4bc50de0d4b8d98b37d9d683f0, type: 3}
-    - time: 2.1666667
+    - time: 2.1
       value: {fileID: 21300000, guid: 1a2f3674983aec040b7b25e981b84e64, type: 3}
     - time: 2.5
       value: {fileID: 21300000, guid: e11e658655c580043996e2f9001ab92a, type: 3}
-    - time: 3.5
+    - time: 3.4833333
       value: {fileID: 21300000, guid: 9e0755bb2c2b9884382b70462ec7ee76, type: 3}
-    - time: 4.6
+    - time: 4.5833335
       value: {fileID: 21300000, guid: 26ffb7c3dd5253c4f888676f9d0a4820, type: 3}
-    - time: 7.6
+    - time: 7.633333
       value: {fileID: 21300000, guid: ec8526ddb865a7e4ba43659322138731, type: 3}
-    - time: 7.9
+    - time: 7.866667
       value: {fileID: 21300000, guid: da76c720ea1c5ee46ae97039d9280231, type: 3}
-    - time: 10.9
+    - time: 10.916667
       value: {fileID: 21300000, guid: 7ce7f3f5a94678546b33a0bb987f1fba, type: 3}
-    - time: 11.2
+    - time: 11.233334
       value: {fileID: 21300000, guid: 9ef85d4f65dd3bd438584020b852e63a, type: 3}
-    - time: 13.7
+    - time: 13.683333
       value: {fileID: 21300000, guid: bb81f8ba04adf854d8ce3cc13e7b05b9, type: 3}
-    - time: 14
+    - time: 13.966666
       value: {fileID: 21300000, guid: bd9b74a6aa21d69448287e58ba0bbdc3, type: 3}
     - time: 15.1
       value: {fileID: 21300000, guid: 9fdb7242b4229354aa1d3484cd5e1ebf, type: 3}
@@ -48,8 +48,8 @@ AnimationClip:
       value: {fileID: 21300000, guid: f05e5fb81a75ed843a06240666202a6c, type: 3}
     attribute: m_Sprite
     path: 
-    classID: 212
-    script: {fileID: 0}
+    classID: 114
+    script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -59,10 +59,10 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 0
-      script: {fileID: 0}
-      typeID: 212
-      customType: 23
+      attribute: 2015549526
+      script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+      typeID: 114
+      customType: 0
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300000, guid: 73960efe7175fb84db4b42115d5d7cbb, type: 3}

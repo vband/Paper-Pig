@@ -103,7 +103,6 @@
     <Compile Include="Assets\Versão do Vítor\GameManager.cs" />
     <Compile Include="Assets\Versão do Vítor\Intro\Intro.cs" />
     <Compile Include="Assets\Versão do Vítor\LayerBehaviour.cs" />
-    <Compile Include="Assets\Versão do Vítor\NewSkinCutscene.cs" />
     <Compile Include="Assets\Versão do Vítor\Score.cs" />
     <None Include="Assets\Versão do João\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Versão do João\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

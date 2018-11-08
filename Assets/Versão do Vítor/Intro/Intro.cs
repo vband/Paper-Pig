@@ -4,23 +4,27 @@ using UnityEngine;
 
 public class Intro : MonoBehaviour
 {
-    [SerializeField] private GameObject game;
-
     private Animator anim;
 
     private void Start()
     {
-        game.SetActive(false);
-
-        anim = GetComponent<Animator>();
-        Time.timeScale = 0f;
+        if (!DontDestroyOnLoader.hasPlayedIntro)
+        {
+            anim = GetComponent<Animator>();
+            Time.timeScale = 0f;
+            FindObjectOfType<BackgroundMusic>().ChangeSong(Scene.Game);
+            anim.Play("Intro");
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public void OnAnimationFinished()
     {
-        game.SetActive(true);
-
+        DontDestroyOnLoader.hasPlayedIntro = true;
         Time.timeScale = 1f;
-        Destroy(transform.parent.gameObject);
+        gameObject.SetActive(false);
     }
 }

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: "Assets/Vers\xE3o do V\xEDtor/_Scenes/SampleScene.unity"
+- path: "Assets/Vers\xE3o do V\xEDtor/_Scenes/Menu.unity"
   isLoaded: 1
   isActive: 1
