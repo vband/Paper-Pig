@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Vers\xE3o do Jo\xE3o/Scenes/Menu.unity"
+    path: "Assets/Vers\xE3o do V\xEDtor/_Scenes/Menu.unity"
     guid: 788b918b793f590438a9e722652a6d7f
   - enabled: 1
-    path: "Assets/Vers\xE3o do V\xEDtor/_Scenes/SampleScene.unity"
+    path: "Assets/Vers\xE3o do V\xEDtor/_Scenes/Game.unity"
     guid: b0038f95b24a3624097e45f5c7c94edf
   - enabled: 0
     path: "Assets/Vers\xE3o do Jo\xE3o/Scenes/PigEditor.unity"
@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: "Assets/Vers\xE3o do Jo\xE3o/Scenes/Test.unity"
     guid: d382459232973784a875a5dcb4708b9d
   - enabled: 0
-    path: "Assets/Vers\xE3o do Jo\xE3o/Scenes/Menu.unity"
+    path: "Assets/Vers\xE3o do V\xEDtor/_Scenes/Menu.unity"
     guid: 788b918b793f590438a9e722652a6d7f
   - enabled: 0
     path: "Assets/Vers\xE3o do Jo\xE3o/Scenes/PigEditor.unity"
