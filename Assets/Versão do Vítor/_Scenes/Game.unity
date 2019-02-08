@@ -9190,6 +9190,16 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114351545069199954, guid: 1d9a942f718614542975bf25ce5dff4e,
+        type: 2}
+      propertyPath: jumpKey
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 114351545069199954, guid: 1d9a942f718614542975bf25ce5dff4e,
+        type: 2}
+      propertyPath: changeLayerKey
+      value: 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d9a942f718614542975bf25ce5dff4e, type: 2}
   m_IsPrefabAsset: 0

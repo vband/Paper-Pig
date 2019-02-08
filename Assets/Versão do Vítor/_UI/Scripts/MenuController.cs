@@ -8,14 +8,13 @@ using DG.Tweening;
 public class MenuController : MonoBehaviour {
 
     [SerializeField] private Image fadeImage;
-    [SerializeField] private GameObject fadeImageGO;
     [SerializeField] private float screenFadeStartTime;
     [SerializeField] private float screenFadeDuration;
-    [SerializeField] private float gdpFadeDuration;
 
     private void Start()
     {
-        //StartCoroutine("Fade");
+        fadeImage.DOFade(1, 0);
+
         if (!DontDestroyOnLoader.hasGameStarted)
         {
             Fade();
@@ -28,7 +27,6 @@ public class MenuController : MonoBehaviour {
 
     public void Play()
     {
-        //FindObjectOfType<BackgroundMusic>().ChangeSong(Scene.Game);
         DontDestroyOnLoader.hasGameStarted = true;
         SceneManager.LoadScene("Game");
     }
@@ -40,12 +38,10 @@ public class MenuController : MonoBehaviour {
 
     private void Fade()
     {
-        //fadeImageGO.SetActive(true);
-        Sequence seq = DOTween.Sequence();
 
+        Sequence seq = DOTween.Sequence();
         seq.Insert(screenFadeStartTime, fadeImage.DOFade(0f, screenFadeDuration));
         seq.Play();
         DontDestroyOnLoader.hasGameStarted = true;
-        //yield return seq.WaitForCompletion();
     }
 }

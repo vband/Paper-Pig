@@ -611,10 +611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 1796834408}
-  fadeImageGO: {fileID: 1796834406}
   screenFadeStartTime: 3.2
   screenFadeDuration: 0.6
-  gdpFadeDuration: 1.65
 --- !u!4 &1045711125
 Transform:
   m_ObjectHideFlags: 0
@@ -1148,7 +1146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19215688, g: 0.19215688, b: 0.19215688, a: 1}
+  m_Color: {r: 0.19215688, g: 0.19215688, b: 0.19215688, a: 0}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:

@@ -26,7 +26,12 @@ public class PoopTree : Enemy
         gameManager = FindObjectOfType<GameManager>();
         myLayer = GetComponentInParent<LayerBehaviour>().GetLayer();
 
-        StartCoroutine("Poop");
+        //StartCoroutine("Poop");
+    }
+
+    public void StopPooping()
+    {
+        //StopCoroutine("Poop");
     }
 
     private IEnumerator Poop()
